@@ -1,0 +1,26 @@
+body{
+    background-color:#3A2E39
+}
+h1{
+ font-size: 75px;
+}
+p{
+ 
+}
+.title{
+ font-size: 30px;
+ padding-top: 30px;
+ font-family: 'Zilla Slab', serif; 
+ color: #F4D8CD;
+}
+.blocks{
+ background-color: #F15152;
+}
+
+/* colors:
+black:   #3A2E39
+green:   #1E555C
+peach:   #F4D8CD
+orange?: #EDB183
+red:     #F15152
+*/
