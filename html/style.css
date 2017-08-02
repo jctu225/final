@@ -1,21 +1,38 @@
 body{
-    background-color:#3A2E39
+ background-color:#3A2E39;
 }
 h1{
  font-size: 75px;
 }
 p{
- 
+
 }
 .title{
  font-size: 30px;
- padding-top: 30px;
+ /*padding-top: 30px;*/
  font-family: 'Zilla Slab', serif; 
  color: #F4D8CD;
 }
 .blocks{
+ 
+ border: 2px solid #F4D8CD;
+ border-radius: 5px;
+ border-radius: 60px 60px 0% 0%;
+ padding: 0% 20% 46% 3%;
  background-color: #F15152;
 }
+#login_block{
+ /*padding-left: 30px;*/
+}
+.text{
+ font-size: 30px;
+ font-family: 'Zilla Slab', serif; 
+ color: #F4D8CD;
+ position: absolute;
+ padding-top: 5%;
+ padding-left: -90000px;
+}
+
 
 /* colors:
 black:   #3A2E39
@@ -23,4 +40,5 @@ green:   #1E555C
 peach:   #F4D8CD
 orange?: #EDB183
 red:     #F15152
+
 */

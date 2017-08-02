@@ -23,19 +23,70 @@ $css = '<style>'.file_get_contents('style.css').'</style>';
 echo $css;
 ?>
  <div class="container">
+  
+  
   <div class="row">
    <div class="title">
     <h1>Welcome to Learnly</h1>
     <p>The learning site.</p>
    </div>
   </div>
-    <div class="row">
-      <div class="blocks">
-       <div class="title">
-        <p>swag</p>
-       </div>
+
+ <div class="row">
+  <div class="col-lg-1 blocks" id="login_block">
+   <div class="row">
+    <div class="">
+     <div class="text">
+      <h2>Login</h2>
+      <div class="form-group">
+       <label for="usr">Username:</label>
+       <input type="text" class="form-control" id="usr">
       </div>
+     <div class="form-group">
+     <label for="pwd">Password:</label>
+     <input type="password" class="form-control" id="usr">
     </div>
+   </div>
+  </div>
+ </div>
+</div>
+    
+    <div class="col-lg-1">
+    </div>
+     <div class="col-lg-2 blocks" id="registration_block">
+     <div class="text">
+      <h2>Registration</h2>
+      <div class="form-group">
+       <label for="usr">Email:</label>
+       <input type="text" class="form-control" id="usr">
+      </div>
+      <div class="form-group">
+       <label for="l_name">First Name:</label>
+       <input type="text" class="form-control" id="usr">
+      </div>
+      <div class="form-group">
+       <label for="l_name">Last Name:</label>
+       <input type="text" class="form-control" id="usr">
+      </div>
+      <div class="col-lg-1">
+      <div class="form-group">
+       <label for="usr">User Name:</label>
+       <input type="text" class="form-control" id="usr">
+      </div>
+      <div class="form-group">
+       <label for="pwd">Password:</label>
+       <input type="password" class="form-control" id="usr">
+      </div>
+      <div class="form-group">
+       <label for="pwd">Re-Enter:</label>
+       <input type="password" class="form-control" id="usr">
+      </div>
+      </div>
+     </div>
+    </div>
+    </div>
+
+
  </div>
   
 </body>
