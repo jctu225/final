@@ -33,8 +33,7 @@ echo $css;
   </div>
 
  <div class="row">
-  <div class="col-lg-1 blocks" id="login_block">
-   <div class="row">
+  <div class="col-lg-3 blocks" id="login_block"> 
     <div class="">
      <div class="text">
       <h2>Login</h2>
@@ -51,9 +50,10 @@ echo $css;
  </div>
 </div>
     
-    <div class="col-lg-1">
-    </div>
-     <div class="col-lg-2 blocks" id="registration_block">
+   <!-- <div class="col-lg-1">
+    </div> -->
+    ,<!--div class="row">-->
+     <div class="col-lg-3 block" id="registration_block">
      <div class="text">
       <h2>Registration</h2>
       <div class="form-group">
@@ -61,14 +61,15 @@ echo $css;
        <input type="text" class="form-control" id="usr">
       </div>
       <div class="form-group">
-       <label for="l_name">First Name:</label>
+       <label for="f_name">First Name:</label>
        <input type="text" class="form-control" id="usr">
       </div>
       <div class="form-group">
        <label for="l_name">Last Name:</label>
        <input type="text" class="form-control" id="usr">
       </div>
-      <div class="col-lg-1">
+
+      <div class="col-lg-3">
       <div class="form-group">
        <label for="usr">User Name:</label>
        <input type="text" class="form-control" id="usr">
@@ -82,9 +83,11 @@ echo $css;
        <input type="password" class="form-control" id="usr">
       </div>
       </div>
+
+      </div>
      </div>
     </div>
-    </div>
+   </div>
 
 
  </div>
