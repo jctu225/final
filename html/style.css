@@ -14,11 +14,17 @@ p{
  color: #F4D8CD;
 }
 .blocks{
- 
  border: 2px solid #F4D8CD;
  border-radius: 5px;
  border-radius: 60px 60px 0% 0%;
- padding: 0% 20% 46% 3%;
+ padding: 0% 23% 70% 3%;
+ background-color: #F15152;
+}
+.block{
+ border: 2px solid #F4D8CD;
+ border-radius: 5px;
+ border-radius: 60px 60px 0% 0%;
+ padding: 0% 40% 70% 3%;
  background-color: #F15152;
 }
 #login_block{
@@ -31,13 +37,6 @@ p{
  position: absolute;
  padding-top: 5%;
  
-}
-.block{
- border: 2px solid #F4D8CD;
- border-radius: 5px;
- border-radius: 60px 60px 0% 0%;
- padding: 0% 20% 70% 3%;
- background-color: #F15152;
 }
 
 /* colors:
