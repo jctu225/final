@@ -23,18 +23,16 @@ $css = '<style>'.file_get_contents('style.css').'</style>';
 echo $css;
 ?>
  <div class="container">
-  
-  
-  <div class="row">
-   <div class="title">
+
+  <div class="row title">
+  <div>
     <h1>Welcome to Learnly</h1>
     <p>The learning site.</p>
-   </div>
+  </div>
   </div>
 
- <div class="row">
-
-  <div class="col-sm-1 blocks"> 
+ <div class="row"> 
+  <div class="col-sm-auto blocks"> 
      <div class="text">
       <h2>Login</h2>
       <div class="form-group">
@@ -45,33 +43,38 @@ echo $css;
      <label for="pwd">Password:</label>
      <input type="password" class="form-control" id="usr">
     </div>
+     <button type="button" class="btn btn-primary">Login</button>
    </div>
   </div>
 
 
 <div class="col-lg-1"></div>
-
-
-<div class="col-lg-1 block">
- <div class="text">
-  <h2>Registration</h2>
-  <div class="form-group">
-   <label for="usr">Email:</label>
-   <input type="text" class="form-control" id="usr">
-  </div>
-  <div class="form-group">
-   <label for="f_name">First Name:</label>
-   <input type="text" class="form-control" id="usr">
-  </div>
+ 
+ 
+ <div class="block">
+  <div class="col-lg-auto text">
+   <div class="text">
+    <h2>Registration</h2>
+    <div class="form-group">
+    <label for="usr">Email:</label>
+    <input type="text" class="form-control" id="usr">
+   </div>
+   <div class="form-group">
+    <label for="f_name">First Name:</label>
+    <input type="text" class="form-control" id="usr">
+   </div>
    <div class="form-group">
     <label for="l_name">Last Name:</label>
     <input type="text" class="form-control" id="usr">
    </div>
+   <button type="button" class="btn btn-primary">Register</button>
   </div>
-</div>
+  </div>
+  
 
-  <div class="col-lg-1">
-   <div class="text"> 
+
+  <div class="col-lg-auto">
+  <div class="text">
     <div class="form-group">
      <label for="usr">User Name:</label>
      <input type="text" class="form-control" id="usr">
@@ -87,6 +90,7 @@ echo $css;
    </div>
   </div>
 
+</div>
 
 
 
