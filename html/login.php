@@ -50,31 +50,29 @@ echo $css;
 
 <div class="col-lg-1"></div>
  
- 
  <div class="block">
   <div class="col-lg-auto text">
    <div class="text">
     <h2>Registration</h2>
     <div class="form-group">
-    <label for="usr">Email:</label>
-    <input type="text" class="form-control" id="usr">
-   </div>
-   <div class="form-group">
-    <label for="f_name">First Name:</label>
-    <input type="text" class="form-control" id="usr">
-   </div>
-   <div class="form-group">
-    <label for="l_name">Last Name:</label>
-    <input type="text" class="form-control" id="usr">
-   </div>
-   <button type="button" class="btn btn-primary">Register</button>
+     <label for="usr">Email:</label>
+     <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+     <label for="f_name">First Name:</label>
+     <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+     <label for="l_name">Last Name:</label>
+     <input type="text" class="form-control" id="usr">
+    </div>
+     <button type="button" class="btn btn-primary">Register</button>
   </div>
-  </div>
-  
+ </div>
 
-
+ <div class="objective_placing">
   <div class="col-lg-auto">
-  <div class="text">
+   <div class="text">
     <div class="form-group">
      <label for="usr">User Name:</label>
      <input type="text" class="form-control" id="usr">
@@ -89,6 +87,7 @@ echo $css;
     </div>
    </div>
   </div>
+ </div>
 
 </div>
 

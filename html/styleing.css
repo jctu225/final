@@ -3,7 +3,6 @@ body{
 }
 .this{
  border: 2px solid #F4D8CD;
- border-radius: 5px;
  border-radius: 0% 0% 50% 0%;
  padding: 0% 99% 15% 3%;
  background-color: #1E555C;
@@ -16,7 +15,10 @@ body{
  padding-top: 5%;
 }
 .edu_block{
-    
+ background-color: #1E555C;
+ border-radius: ;
+ padding: 0% 99% 40% 0%;
+ border: 2px solid #F4D8CD;
 }
 
 /* colors:

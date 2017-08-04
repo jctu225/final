@@ -19,14 +19,34 @@
 $css = '<style>'.file_get_contents('styleing.css').'</style>';
 echo $css;
 ?>
+
 <div class="container-fluid">
 
- <div class="row this">
-  <div class="text">
-   <h1> Welcome Back! </h1>  
+ <div class="this">
+  <div class="row">
+   <div class="text">
+    <h1> Welcome Back! </h1>  
+   </div>
   </div>
  </div>
+ </br>
+ <nav class="nav nav-pills flex-column flex-sm-row">
+     <a class="flex-sm-fill text-sm-center nav-link active" href="#">Home </a>
 
+     <a class="flex-sm-fill text-sm-center nav-link active" href="#">Philosophy </a>
+
+     <a class="flex-sm-fill text-sm-center nav-link active" href="#">History </a>
+     
+     <a class="flex-sm-fill text-sm-center nav-link active" href="#">Math </a>
+    </nav>
+ <div class="row">
+  <div class="edu_block">
+   <div class="text">
+    <div class="col-auto-1">
+    </div>
+   </div>
+  </div>
+ </div>
 
 
 </div>
