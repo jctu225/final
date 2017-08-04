@@ -25,7 +25,7 @@ p{
  border-radius: 5px;
  border-radius: 60px 60px 0% 0%;
  padding: 0% 40% 45% 3%;
- background-color: #F15152;
+ background-color: #1E555C;
 }
 #login_block{
  /*padding-left: 30px;*/
@@ -36,11 +36,7 @@ p{
  color: #F4D8CD;
  position: absolute;
  padding-top: 5%;
- 
 }
-
-
-
 
 /* colors:
 black:   #3A2E39
